@@ -30,5 +30,5 @@ CI checks the snapshot and generator and ensures checked-in SVGs can be
 reproduced offline. It has read-only permissions and does not commit, deploy,
 or automatically merge anything.
 
-The interactive game belongs to `zecloud/zecloud.github.io` at `/play/`.
+The interactive game belongs to the dedicated `zecloud/snake` repository at `/snake/`.
 Its README link must stay marked as pending until that page is verified deployed.

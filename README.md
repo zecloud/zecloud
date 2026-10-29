@@ -21,11 +21,11 @@ L’animation est un aperçu décoratif ; le jeu se joue séparément au clavier
 avec des boutons de direction, avec un mode sans chrono.
 
 **Jeu interactif : publication en attente.**
-[Adresse prévue du jeu Snake](https://www.zecloud.fr/play/) — ce lien ne sera
-disponible qu’après fusion et déploiement des changements du site. Le blog
-existant reste conservé.
+[Adresse prévue du jeu Snake](https://www.zecloud.fr/snake/) — ce lien ne sera
+disponible qu’après fusion et déploiement du dépôt dédié
+[zecloud/snake](https://github.com/zecloud/snake). Le blog existant reste indépendant.
 
-<!-- Keep the publication status above until /play/ has been verified live. -->
+<!-- Keep the publication status above until /snake/ has been verified live. -->
 
 <!--
 **zecloud/zecloud** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
