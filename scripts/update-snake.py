@@ -54,6 +54,8 @@ def validate_snapshot(snapshot):
     if snapshot.get("username") != "zecloud":
         raise ValueError("Unexpected calendar owner")
     generated = dt.datetime.fromisoformat(snapshot["generatedAt"])
+    if any(type(day["level"]) is not int for day in snapshot["days"]):
+        raise ValueError("Snapshot levels must be integers")
     html = "".join(
         f'<td data-date="{escape(day["date"], quote=True)}" data-level="{int(day["level"])}"></td>'
         for day in snapshot["days"]

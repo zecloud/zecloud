@@ -9,23 +9,15 @@ de l’intelligence artificielle et de la robotique.
 
 ## Une contribution, une case à croquer
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/contributions-static.svg">
-  <img src="./assets/github-contribution-snake.svg" alt="Un serpent parcourt mon calendrier public de contributions GitHub, du 31 octobre 2025 au 29 octobre 2026. Instantané du 29 octobre 2026 ; les nuances vertes représentent les niveaux de contribution." width="766">
-</picture>
+<img src="./assets/contributions-static.svg" alt="Calendrier public de mes contributions GitHub : les nuances vertes représentent les niveaux de contribution." width="766">
 
-[Voir la grille sans animation](./assets/contributions-static.svg)
+[Voir l’animation Snake](./assets/github-contribution-snake.svg)
 
 Le calendrier ci-dessus est un **instantané public**, pas un compteur en temps réel.
 L’animation est un aperçu décoratif ; le jeu se joue séparément au clavier ou
 avec des boutons de direction, avec un mode sans chrono.
 
-**Jeu interactif : publication en attente.**
-[Adresse prévue du jeu Snake](https://www.zecloud.fr/snake/) — ce lien ne sera
-disponible qu’après fusion et déploiement du dépôt dédié
-[zecloud/snake](https://github.com/zecloud/snake). Le blog existant reste indépendant.
-
-<!-- Keep the publication status above until /snake/ has been verified live. -->
+[🐍 Jouer au Snake](https://www.zecloud.fr/snake/) · [Code du jeu](https://github.com/zecloud/snake)
 
 <!--
 **zecloud/zecloud** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

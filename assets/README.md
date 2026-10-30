@@ -22,13 +22,12 @@ a deterministic, collision-free alternating vertical scan. It dims each visited
 contribution, then the animation resets. The grid preserves actual dates and
 intensities; the route is decorative, not a record of gameplay or commit counts.
 The SVG title/description and each day's tooltip describe the snapshot.
-Reduced-motion viewers get a static SVG via the profile's `picture` element;
-the animated SVG also disables its CSS animations under reduced motion.
-A static-view link is always available.
+The profile displays the static SVG by default, with an opt-in link to the
+animated SVG. The animated SVG also disables its CSS animations under reduced
+motion.
 
 CI checks the snapshot and generator and ensures checked-in SVGs can be
 reproduced offline. It has read-only permissions and does not commit, deploy,
 or automatically merge anything.
 
 The interactive game belongs to the dedicated `zecloud/snake` repository at `/snake/`.
-Its README link must stay marked as pending until that page is verified deployed.

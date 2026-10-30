@@ -9,7 +9,7 @@ ROOT = Path(__file__).resolve().parents[1]
 spec = importlib.util.spec_from_file_location("snake", ROOT / "scripts/update-snake.py")
 snake = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(snake)
-SNAPSHOT = json.loads((ROOT / "assets/contributions.json").read_text())
+SNAPSHOT = json.loads((ROOT / "assets/contributions.json").read_text(encoding="utf-8"))
 
 
 class SnakeTests(unittest.TestCase):
@@ -25,6 +25,18 @@ class SnakeTests(unittest.TestCase):
         ]:
             with self.subTest(snapshot=snapshot["username"]), self.assertRaises(ValueError):
                 snake.validate_snapshot(snapshot)
+
+    def test_snapshot_rejects_non_integer_level_types(self):
+        for level in [True, False, 1.0, "1"]:
+            snapshot = {**SNAPSHOT, "days": [{**SNAPSHOT["days"][0], "level": level}, *SNAPSHOT["days"][1:]]}
+            with self.subTest(level=level), self.assertRaises(ValueError):
+                snake.validate_snapshot(snapshot)
+
+    def test_profile_preview_is_static_by_default(self):
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        self.assertIn('<img src="./assets/contributions-static.svg"', readme)
+        self.assertNotIn('<img src="./assets/github-contribution-snake.svg"', readme)
+        self.assertIn('](./assets/github-contribution-snake.svg)', readme)
 
     def test_bad_network_responses_rejected(self):
         for html in ["<p>Sign in</p>", '<td data-date="2026-10-29" data-level="5">']:
@@ -52,7 +64,7 @@ class SnakeTests(unittest.TestCase):
 
     def test_committed_previews_are_reproducible(self):
         for name, animated in [("github-contribution-snake.svg", True), ("contributions-static.svg", False)]:
-            self.assertEqual((ROOT / "assets" / name).read_text(), snake.render_svg(SNAPSHOT, animated))
+            self.assertEqual((ROOT / "assets" / name).read_text(encoding="utf-8"), snake.render_svg(SNAPSHOT, animated))
 
 
 if __name__ == "__main__":
