@@ -9,7 +9,7 @@ de l’intelligence artificielle et de la robotique.
 
 ## Une contribution, une case à croquer
 
-<img src="./assets/contributions-static.svg" alt="Calendrier public de mes contributions GitHub : les nuances vertes représentent les niveaux de contribution." width="766">
+<img src="./assets/github-contribution-snake.svg" alt="Calendrier public de mes contributions GitHub : les nuances vertes représentent les niveaux de contribution." width="766">
 
 [Voir l’animation Snake](./assets/github-contribution-snake.svg)
 
