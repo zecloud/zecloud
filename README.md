@@ -57,8 +57,18 @@ serverless · robotique.
 
 - **[L’ascension des agents : l’IA passe à l’action](https://www.zecloud.fr/lascension-des-agents-lia-passe-a-laction/)** —
   une sélection de conférences sur les agents IA et leurs frameworks.
+
+  <a href="https://www.zecloud.fr/lascension-des-agents-lia-passe-a-laction/">
+    <img src="./assets/ascension-des-agents.png" alt="Couverture de l’article L’ascension des agents : l’IA passe à l’action." width="180">
+  </a>
+
 - **[Serverless Everywhere · Devoxx France 2021](https://www.zecloud.fr/serverless-everywhere-devoxx-fr-2021/)** —
   la vidéo, les slides et le code de la session.
+
+  <a href="https://www.zecloud.fr/serverless-everywhere-devoxx-fr-2021/">
+    <img src="./assets/serverless-everywhere-devoxx-2021.jpg" alt="Couverture de l’article Serverless Everywhere à Devoxx France 2021." width="180">
+  </a>
+
 - **[ZeCloud Academy](https://academy.zecloud.fr/)** —
   apprendre plus vite avec un coach IA personnel.
 - **[Training Hub](https://www.zecloud.fr/Training/)** —
