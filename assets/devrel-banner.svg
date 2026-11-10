@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="196" viewBox="0 0 960 196">
+  <title>ZeCloud : explorer, construire et partager</title>
+  <rect width="960" height="196" rx="10" fill="#0b1216"/>
+  <path d="M0 151H960" fill="none" stroke="#203932" stroke-width="1"/>
+  <text x="48" y="83" fill="#e6f4ff" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="48" font-weight="700">ZeCloud</text>
+  <text x="50" y="120" fill="#a8d1b3" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="18" font-weight="600" letter-spacing="2">IA · CLOUD · COMMUNAUTÉ</text>
+  <g fill="#203932">
+    <rect x="562" y="42" width="12" height="12" rx="2"/>
+    <rect x="592" y="42" width="12" height="12" rx="2"/>
+    <rect x="622" y="42" width="12" height="12" rx="2"/>
+    <rect x="652" y="42" width="12" height="12" rx="2"/>
+    <rect x="682" y="42" width="12" height="12" rx="2"/>
+    <rect x="712" y="42" width="12" height="12" rx="2"/>
+    <rect x="742" y="42" width="12" height="12" rx="2"/>
+    <rect x="772" y="42" width="12" height="12" rx="2"/>
+    <rect x="802" y="42" width="12" height="12" rx="2"/>
+    <rect x="832" y="42" width="12" height="12" rx="2"/>
+    <rect x="862" y="42" width="12" height="12" rx="2"/>
+    <rect x="892" y="42" width="12" height="12" rx="2"/>
+    <rect x="562" y="72" width="12" height="12" rx="2"/>
+    <rect x="592" y="72" width="12" height="12" rx="2"/>
+    <rect x="622" y="72" width="12" height="12" rx="2"/>
+    <rect x="652" y="72" width="12" height="12" rx="2"/>
+    <rect x="682" y="72" width="12" height="12" rx="2"/>
+    <rect x="712" y="72" width="12" height="12" rx="2"/>
+    <rect x="742" y="72" width="12" height="12" rx="2"/>
+    <rect x="772" y="72" width="12" height="12" rx="2"/>
+    <rect x="802" y="72" width="12" height="12" rx="2"/>
+    <rect x="832" y="72" width="12" height="12" rx="2"/>
+    <rect x="862" y="72" width="12" height="12" rx="2"/>
+    <rect x="892" y="72" width="12" height="12" rx="2"/>
+    <rect x="562" y="102" width="12" height="12" rx="2"/>
+    <rect x="592" y="102" width="12" height="12" rx="2"/>
+    <rect x="622" y="102" width="12" height="12" rx="2"/>
+    <rect x="652" y="102" width="12" height="12" rx="2"/>
+    <rect x="682" y="102" width="12" height="12" rx="2"/>
+    <rect x="712" y="102" width="12" height="12" rx="2"/>
+    <rect x="742" y="102" width="12" height="12" rx="2"/>
+    <rect x="772" y="102" width="12" height="12" rx="2"/>
+    <rect x="802" y="102" width="12" height="12" rx="2"/>
+    <rect x="832" y="102" width="12" height="12" rx="2"/>
+    <rect x="862" y="102" width="12" height="12" rx="2"/>
+    <rect x="892" y="102" width="12" height="12" rx="2"/>
+  </g>
+  <path d="M568 138H628V108H688V78H748V108H808V78H898" fill="none" stroke="#85bce2" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <g fill="#87cc73">
+    <circle cx="628" cy="108" r="5"/>
+    <circle cx="688" cy="78" r="5"/>
+    <circle cx="748" cy="108" r="5"/>
+    <circle cx="808" cy="78" r="5"/>
+  </g>
+  <circle cx="898" cy="78" r="7" fill="#e6f4ff"/>
+</svg>
