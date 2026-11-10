@@ -39,8 +39,8 @@ serverless · robotique.
 - **[Ghost MCP sur Azure](https://github.com/zecloud/ghost-mcp-azure)** —
   une adaptation sur Azure Functions d’un serveur MCP pour interagir avec Ghost CMS.
 - **[Poppyrate](https://poppyrate.zecloud.fr/)** —
-  le manuel d’atelier d’une adaptation documentée de Poppy Humanoid : préparation,
-  assemblage en photos et catalogue de pièces en 3D.
+  un robot humanoïde open source dérivé de Poppy, au squelette imprimé en 3D,
+  conçu pour rendre la robotique éducative plus accessible et abordable.
 
 [Découvrir tous mes dépôts →](https://github.com/zecloud?tab=repositories)
 
