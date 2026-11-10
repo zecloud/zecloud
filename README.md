@@ -44,7 +44,16 @@ serverless · robotique.
 
 [Découvrir tous mes dépôts →](https://github.com/zecloud?tab=repositories)
 
-## 🎤 Conférences et ressources
+## 🎤 Conférences, meetups et ressources
+
+- **[Global AI Paris · Multi-agents : retour d’expérience](https://www.meetup.com/global-ai-paris/events/314294163/)** —
+  le 28 avril 2026, autour des architectures multi-agents. J’y ai présenté les
+  actualités Microsoft Foundry, GitHub Copilot et Microsoft Agent Framework.
+  [Voir le replay](https://youtu.be/pCAtDlzDuXw).
+
+  <a href="./assets/global-ai-paris-multi-agents-2026.jpg">
+    <img src="./assets/global-ai-paris-multi-agents-2026.jpg" alt="Flyer du meetup Global AI Paris : Multi-agents, retour d’expérience, le 28 avril 2026." width="180">
+  </a>
 
 - **[L’ascension des agents : l’IA passe à l’action](https://www.zecloud.fr/lascension-des-agents-lia-passe-a-laction/)** —
   une sélection de conférences sur les agents IA et leurs frameworks.
