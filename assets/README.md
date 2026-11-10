@@ -22,9 +22,9 @@ a deterministic, collision-free alternating vertical scan. It dims each visited
 contribution, then the animation resets. The grid preserves actual dates and
 intensities; the route is decorative, not a record of gameplay or commit counts.
 The SVG title/description and each day's tooltip describe the snapshot.
-The profile displays the static SVG by default, with an opt-in link to the
-animated SVG. The animated SVG also disables its CSS animations under reduced
-motion.
+The profile displays the animated SVG by default, with a link to the static
+preview. A `picture` source offers the static SVG to reduced-motion viewers;
+the animated SVG also disables its CSS animations under reduced motion.
 
 CI checks the snapshot and generator and ensures checked-in SVGs can be
 reproduced offline. It has read-only permissions and does not commit, deploy,

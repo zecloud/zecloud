@@ -1,35 +1,68 @@
-# Aymeric Weinbach · ZeCloud
+<p align="center">
+  <img src="./assets/devrel-banner.svg" alt="ZeCloud : IA, cloud et communauté." width="960">
+</p>
 
-Architecture et développement **Cloud & IA**.
+<h1 align="center">Aymeric Weinbach · ZeCloud</h1>
 
-Je partage du code, des expérimentations et des conférences autour du cloud,
-de l’intelligence artificielle et de la robotique.
+<p align="center">
+  <strong>Microsoft MVP · AI &amp; Azure</strong><br>
+  Cloud, IA et communauté : explorer, construire et partager.
+</p>
 
-[Le blog](https://www.zecloud.fr/) · [Mes dépôts](https://github.com/zecloud?tab=repositories)
+<p align="center">
+  <a href="https://www.zecloud.fr/">Blog</a> ·
+  <a href="https://www.zecloud.fr/Training/">Training Hub</a> ·
+  <a href="https://www.zecloud.fr/lascension-des-agents-lia-passe-a-laction/">Conférences</a> ·
+  <a href="https://www.zecloud.fr/snake/">Jouer au Snake</a>
+</p>
 
-## Une contribution, une case à croquer
+## 👋 Bonjour / Hello
 
-<img src="./assets/github-contribution-snake.svg" alt="Calendrier public de mes contributions GitHub : les nuances vertes représentent les niveaux de contribution." width="766">
+J’explore l’IA et le cloud en partageant du code, des expérimentations et des
+conférences. Mon objectif : rendre les idées techniques concrètes et accessibles
+aux développeurs.
 
-[Voir l’animation Snake](./assets/github-contribution-snake.svg)
+*I share hands-on projects, talks and resources about AI, cloud and developer communities.*
 
-Le calendrier ci-dessus est un **instantané public**, pas un compteur en temps réel.
-L’animation est un aperçu décoratif ; le jeu se joue séparément au clavier ou
-avec des boutons de direction, avec un mode sans chrono.
+**Mes terrains d’exploration :** IA générative et agents · MCP · Azure et
+serverless · robotique.
 
-[🐍 Jouer au Snake](https://www.zecloud.fr/snake/) · [Code du jeu](https://github.com/zecloud/snake)
+## 🧪 Du code pour explorer
 
-<!--
-**zecloud/zecloud** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- **[MCP Image AI Foundry](https://github.com/zecloud/MCP_Image_AIFoundry)** —
+  un serveur MCP sur Azure Functions pour générer et modifier des images avec
+  Azure AI Foundry.
+- **[MCP vidéo et musique](https://github.com/zecloud/mcp-video-generation-functions)** —
+  des workflows de génération orchestrés avec Azure Functions et Durable Task Scheduler.
+- **[Ghost MCP sur Azure](https://github.com/zecloud/ghost-mcp-azure)** —
+  une adaptation sur Azure Functions d’un serveur MCP pour interagir avec Ghost CMS.
 
-Here are some ideas to get you started:
+[Découvrir tous mes dépôts →](https://github.com/zecloud?tab=repositories)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🎤 Conférences et ressources
+
+- **[L’ascension des agents : l’IA passe à l’action](https://www.zecloud.fr/lascension-des-agents-lia-passe-a-laction/)** —
+  une sélection de conférences sur les agents IA et leurs frameworks.
+- **[Serverless Everywhere · Devoxx France 2021](https://www.zecloud.fr/serverless-everywhere-devoxx-fr-2021/)** —
+  la vidéo, les slides et le code de la session.
+- **[Training Hub](https://www.zecloud.fr/Training/)** —
+  un point d’entrée vers des ressources et parcours de formation.
+
+## 🤝 Échangeons
+
+Une question, une idée ou un retour sur un projet ? Ouvre une issue dans le dépôt
+concerné : les échanges et les contributions sont les bienvenus.
+
+## 🐍 Une contribution, une case à croquer
+
+Une petite pause sur ma grille publique de contributions GitHub. C’est un
+**instantané**, pas un compteur en temps réel.
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/contributions-static.svg">
+  <img src="./assets/github-contribution-snake.svg" alt="Calendrier public de mes contributions GitHub : les nuances vertes représentent les niveaux de contribution." width="766">
+</picture>
+
+[Voir la grille statique](./assets/contributions-static.svg) ·
+[Jouer au Snake](https://www.zecloud.fr/snake/) ·
+[Code du jeu](https://github.com/zecloud/snake)

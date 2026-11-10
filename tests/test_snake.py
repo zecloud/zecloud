@@ -32,11 +32,14 @@ class SnakeTests(unittest.TestCase):
             with self.subTest(level=level), self.assertRaises(ValueError):
                 snake.validate_snapshot(snapshot)
 
-    def test_profile_preview_is_static_by_default(self):
+    def test_profile_preview_offers_reduced_motion_and_static_view(self):
         readme = (ROOT / "README.md").read_text(encoding="utf-8")
-        self.assertIn('<img src="./assets/contributions-static.svg"', readme)
-        self.assertNotIn('<img src="./assets/github-contribution-snake.svg"', readme)
-        self.assertIn('](./assets/github-contribution-snake.svg)', readme)
+        self.assertIn('<img src="./assets/github-contribution-snake.svg"', readme)
+        self.assertIn(
+            '<source media="(prefers-reduced-motion: reduce)" srcset="./assets/contributions-static.svg">',
+            readme,
+        )
+        self.assertIn('](./assets/contributions-static.svg)', readme)
 
     def test_bad_network_responses_rejected(self):
         for html in ["<p>Sign in</p>", '<td data-date="2026-10-29" data-level="5">']:
