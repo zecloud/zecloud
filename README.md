@@ -11,7 +11,9 @@
 
 <p align="center">
   <a href="https://www.zecloud.fr/">Blog</a> ·
+  <a href="https://academy.zecloud.fr/">ZeCloud Academy</a> ·
   <a href="https://www.zecloud.fr/Training/">Training Hub</a> ·
+  <a href="https://poppyrate.zecloud.fr/">Poppyrate</a> ·
   <a href="https://www.zecloud.fr/lascension-des-agents-lia-passe-a-laction/">Conférences</a> ·
   <a href="https://www.zecloud.fr/snake/">Jouer au Snake</a>
 </p>
@@ -36,6 +38,9 @@ serverless · robotique.
   des workflows de génération orchestrés avec Azure Functions et Durable Task Scheduler.
 - **[Ghost MCP sur Azure](https://github.com/zecloud/ghost-mcp-azure)** —
   une adaptation sur Azure Functions d’un serveur MCP pour interagir avec Ghost CMS.
+- **[Poppyrate](https://poppyrate.zecloud.fr/)** —
+  le manuel d’atelier d’une adaptation documentée de Poppy Humanoid : préparation,
+  assemblage en photos et catalogue de pièces en 3D.
 
 [Découvrir tous mes dépôts →](https://github.com/zecloud?tab=repositories)
 
@@ -45,8 +50,10 @@ serverless · robotique.
   une sélection de conférences sur les agents IA et leurs frameworks.
 - **[Serverless Everywhere · Devoxx France 2021](https://www.zecloud.fr/serverless-everywhere-devoxx-fr-2021/)** —
   la vidéo, les slides et le code de la session.
+- **[ZeCloud Academy](https://academy.zecloud.fr/)** —
+  apprendre plus vite avec un coach IA personnel.
 - **[Training Hub](https://www.zecloud.fr/Training/)** —
-  un point d’entrée vers des ressources et parcours de formation.
+  les slides et quiz des parcours générés avec ZeCloud Academy.
 
 ## 🤝 Échangeons
 
