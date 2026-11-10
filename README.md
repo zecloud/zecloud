@@ -66,7 +66,10 @@ serverless · robotique.
   la vidéo, les slides et le code de la session.
 
   <a href="https://www.zecloud.fr/serverless-everywhere-devoxx-fr-2021/">
-    <img src="./assets/serverless-everywhere-devoxx-2021.jpg" alt="Couverture de l’article Serverless Everywhere à Devoxx France 2021." width="180">
+    <picture>
+      <source media="(prefers-reduced-motion: reduce)" srcset="./assets/serverless-everywhere-devoxx-2021.jpg">
+      <img src="./assets/serverless-everywhere-devoxx-2021.gif" alt="Paysage de montagnes sous un ciel étoilé." width="180">
+    </picture>
   </a>
 
 - **[ZeCloud Academy](https://academy.zecloud.fr/)** —

@@ -10,11 +10,22 @@ class ImageParser(HTMLParser):
     def __init__(self):
         super().__init__()
         self.images = []
+        self.pictures = []
+        self.current_picture = None
 
     def handle_starttag(self, tag, attrs):
+        if tag == "picture":
+            self.current_picture = []
         if tag in {"img", "source"}:
             attributes = dict(attrs)
             self.images.append((tag, attributes))
+            if self.current_picture is not None:
+                self.current_picture.append((tag, attributes))
+
+    def handle_endtag(self, tag):
+        if tag == "picture" and self.current_picture is not None:
+            self.pictures.append(self.current_picture)
+            self.current_picture = None
 
 
 class ProfileTests(unittest.TestCase):
@@ -35,6 +46,27 @@ class ProfileTests(unittest.TestCase):
             if attributes.get("src") == "./assets/devrel-banner.svg"
         )
         self.assertIn("ZeCloud", banner["alt"])
+
+    def test_serverless_animation_offers_reduced_motion(self):
+        parser = ImageParser()
+        parser.feed((ROOT / "README.md").read_text(encoding="utf-8"))
+        picture = next(
+            picture
+            for picture in parser.pictures
+            if any(
+                tag == "img"
+                and attributes.get("src") == "./assets/serverless-everywhere-devoxx-2021.gif"
+                for tag, attributes in picture
+            )
+        )
+        self.assertTrue(
+            any(
+                tag == "source"
+                and attributes.get("media") == "(prefers-reduced-motion: reduce)"
+                and attributes.get("srcset") == "./assets/serverless-everywhere-devoxx-2021.jpg"
+                for tag, attributes in picture
+            )
+        )
 
     def test_banner_is_a_standalone_svg(self):
         root = ET.parse(ROOT / "assets" / "devrel-banner.svg").getroot()
